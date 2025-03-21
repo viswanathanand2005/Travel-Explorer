@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Explorer - Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Travel Explorer</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1"
+            class="d-block w-100"
+            alt="Mountains"
+          />
+          <div class="carousel-caption">
+            <h1>Discover the World</h1>
+            <p>Unforgettable adventures await you</p>
+            <a href="contact.html" class="btn btn-primary"
+              >Start Your Journey</a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+            class="d-block w-100"
+            alt="Beach"
+          />
+          <div class="carousel-caption">
+            <h1>Explore Paradise Beaches</h1>
+            <p>Relax and rejuvenate in stunning locations</p>
+            <a href="gallery.html" class="btn btn-primary">View Destinations</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9"
+            class="d-block w-100"
+            alt="City"
+          />
+          <div class="carousel-caption">
+            <h1>Experience Urban Adventures</h1>
+            <p>Immerse yourself in vibrant city cultures</p>
+            <a href="about.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="services" class="py-5">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <h2>Our Services</h2>
+          <p>We provide premium travel experiences tailored to your needs</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card service-card h-100">
+              <div class="card-body text-center">
+                <h3 class="card-title">Customized Itineraries</h3>
+                <p class="card-text">
+                  Personalized travel plans designed specifically for your
+                  preferences and interests.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card service-card h-100">
+              <div class="card-body text-center">
+                <h3 class="card-title">Premium Accommodations</h3>
+                <p class="card-text">
+                  Hand-picked luxury hotels and unique stays for an
+                  unforgettable experience.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card service-card h-100">
+              <div class="card-body text-center">
+                <h3 class="card-title">Adventure Tours</h3>
+                <p class="card-text">
+                  Exciting activities and guided tours led by experienced local
+                  experts.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
